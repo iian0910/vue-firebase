@@ -1,24 +1,27 @@
-# vue_firebase
+# Vue x Google Firebase
 
-## Project setup
-```
-npm install
+## 作品說明
+透過 Vue.js 3 搭配 Google Firebase 來實現 TodoList
+
+## 系統說明
+
+**版本**
+
+Node.js `v20.10.0`
+
+## 資料夾說明
+
+```shell
+├── ...
+├── src/
+├──├── firebase
+├──├──├── firebase.config.js #Firebase 設定檔
+├──├── App.vue               #主畫面
+└── ...
 ```
 
-### Compiles and hot-reloads for development
+### 使用技術
 ```
-npm run serve
+Firebase 10.12.3
+Vue.js 3.2.13
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
